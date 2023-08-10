@@ -1,0 +1,2 @@
+$QUARTUS_HOME/eda/sim_lib/twentynm_atoms.vhd
+$QUARTUS_HOME/eda/sim_lib/twentynm_components.vhd
