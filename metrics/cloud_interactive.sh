@@ -4,7 +4,7 @@
 
 # Set up environment
 cd work
-WAVE_FILE=waves.vcd.gz # remove .gz for an uncompressed result
+WAVE_FILE=waves.mxd
 set -e
 
 # Compile vendor libraries

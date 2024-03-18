@@ -3,7 +3,7 @@
 
 # Set up environment
 cd work
-$WAVE_FILE = "waves.vcd.gz" # remove .gz for an uncompressed result
+$WAVE_FILE = "waves.mxd"
 
 # Compile vendor libraries
 mdc dvhcom -a '-vhdl93 -F ../common/twentynm_hip_filelist.txt -lib twentynm_hip'
