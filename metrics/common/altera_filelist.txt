@@ -1,0 +1,6 @@
+$QUARTUS_HOME/eda/sim_lib/altera_syn_attributes.vhd
+$QUARTUS_HOME/eda/sim_lib/altera_standard_functions.vhd
+$QUARTUS_HOME/eda/sim_lib/alt_dspbuilder_package.vhd
+$QUARTUS_HOME/eda/sim_lib/altera_europa_support_lib.vhd
+$QUARTUS_HOME/eda/sim_lib/altera_primitives_components.vhd
+$QUARTUS_HOME/eda/sim_lib/altera_primitives.vhd

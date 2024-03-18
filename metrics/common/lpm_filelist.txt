@@ -1,0 +1,2 @@
+$QUARTUS_HOME/eda/sim_lib/220pack.vhd
+$QUARTUS_HOME/eda/sim_lib/220model.vhd

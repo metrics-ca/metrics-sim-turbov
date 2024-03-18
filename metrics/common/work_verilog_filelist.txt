@@ -1,0 +1,5 @@
+$IP_HOME/altera/dsp/intel_fpga_turbov/src/intelfpga/rtl/ram/single_port_lut_mem.v
+$IP_HOME/altera/dsp/intel_fpga_turbov/src/intelfpga/rtl/ram/ram_8k_8i_8o.v
+$IP_HOME/altera/dsp/intel_fpga_turbov/src/intelfpga/rtl/ram/ram_16k_8i_8o.v
+$IP_HOME/altera/dsp/intel_fpga_turbov/src/intelfpga/rtl/ram/ram_16k_16i_16o.v
+$IP_HOME/altera/dsp/intel_fpga_turbov/src/intelfpga/rtl/ram/fifo_46i_46o_128d_sc.v

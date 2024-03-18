@@ -1,0 +1,2 @@
+$QUARTUS_HOME/eda/sim_lib/sgate_pack.vhd
+$QUARTUS_HOME/eda/sim_lib/sgate.vhd

@@ -1,2 +1,0 @@
-$QUARTUS_HOME/eda/sim_lib/twentynm_hssi_atoms.v
-$QUARTUS_HOME/eda/sim_lib/twentynm_hssi_atoms_ncrypt.v

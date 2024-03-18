@@ -12,6 +12,5 @@ library lpm               dummy_directory ;
 library sgate             dummy_directory ;
 library altera_mf         dummy_directory ;
 library altera_lnsim      dummy_directory ;
-library twentynm          dummy_directory ;
 library twentynm_hssi     dummy_directory ;
 library twentynm_hip      dummy_directory ;

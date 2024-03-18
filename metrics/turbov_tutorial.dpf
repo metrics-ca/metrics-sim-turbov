@@ -1,0 +1,86 @@
+---
+# Note: The contents of this file are automatically generated.
+# Any changes made by hand may be overwritten.
+version: '0.2'
+work_dir: work
+design_root_dir: ..\..\
+simulations:
+  - name: Sim 1
+    options: >-
+      -top work.turbov_ul_top_tb -libmap ..\common\lib.map -timescale 1ps/1ps +acc+b
+      -waves waves.mxd -suppress NumericStd:ArraySubtypeWarning
+source_files:
+  - path: ..\common\altera_filelist.txt
+    language: vhdl
+    library_name: altera
+    file_list: relative-to-file
+  - path: ..\common\altera_lnsim_filelist.txt
+    language: vhdl
+    library_name: altera_lnsim
+    file_list: relative-to-file
+  - path: ..\common\altera_mf_filelist.txt
+    language: vhdl
+    library_name: altera_mf
+    file_list: relative-to-file
+  - path: ..\common\lpm_filelist.txt
+    language: vhdl
+    library_name: lpm
+    file_list: relative-to-file
+  - path: ..\common\sgate_filelist.txt
+    language: vhdl
+    library_name: sgate
+    file_list: relative-to-file
+  - path: ..\common\altera_ver_filelist.txt
+    language: verilog
+    library_name: altera_ver
+    file_list: relative-to-file
+  - path: ..\common\altera_lnsim_ver_filelist.txt
+    language: verilog
+    library_name: altera_lnsim_ver
+    file_list: relative-to-file
+  - path: ..\common\altera_mf_ver_filelist.txt
+    language: verilog
+    library_name: altera_mf_ver
+    file_list: relative-to-file
+  - path: ..\common\lpm_ver_filelist.txt
+    language: verilog
+    library_name: lpm_ver
+    file_list: relative-to-file
+  - path: ..\common\sgate_ver_filelist.txt
+    language: verilog
+    library_name: sgate_ver
+    file_list: relative-to-file
+  - path: ..\common\twentynm_hip_filelist.txt
+    language: vhdl
+    library_name: twentynm_hip
+    file_list: relative-to-file
+  - path: ..\common\twentynm_hssi_filelist.txt
+    language: vhdl
+    library_name: twentynm_hssi
+    file_list: relative-to-file
+  - path: ..\common\work_vhdl93_filelist.txt
+    language: vhdl
+    file_list: relative-to-file
+  - path: ..\common\twentynm_ver_filelist.txt
+    language: verilog
+    library_name: twentynm_ver
+    file_list: relative-to-file
+  - path: ..\common\twentynm_hip_ver_filelist.txt
+    language: verilog
+    library_name: twentynm_hip_ver
+    file_list: relative-to-file
+  - path: ..\common\twentynm_hssi_ver_filelist.txt
+    language: verilog
+    library_name: twentynm_hssi_ver
+    file_list: relative-to-file
+  - path: ..\common\work_verilog_filelist.txt
+    language: verilog
+    file_list: relative-to-file
+  - path: ..\..\..\src\intel_FPGA_turbov_0_example_design_core.v
+    language: verilog
+  - path: ..\common\work_sv_filelist.txt
+    language: verilog
+    options: '-sv'
+    file_list: relative-to-file
+library_search_paths:
+  - $STD_LIBS\ieee93

@@ -1,0 +1,1 @@
+$QUARTUS_HOME/eda/sim_lib/sgate.v

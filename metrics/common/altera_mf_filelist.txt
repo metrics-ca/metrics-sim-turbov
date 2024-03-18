@@ -1,0 +1,2 @@
+$QUARTUS_HOME/eda/sim_lib/altera_mf_components.vhd
+$QUARTUS_HOME/eda/sim_lib/altera_mf.vhd
