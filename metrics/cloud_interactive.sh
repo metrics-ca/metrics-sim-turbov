@@ -8,12 +8,12 @@ WAVE_FILE=waves.mxd
 set -e
 
 # Compile vendor libraries
-mdc dvhcom -a '-vhdl93 -F ../common/twentynm_hip_filelist.txt -lib twentynm_hip'
-mdc dvhcom -a '-vhdl93 -F ../common/twentynm_hssi_filelist.txt -lib twentynm_hssi'
+mdc dvhcom -a '-vhdl93 -lib twentynm_hip -F ../common/twentynm_hip_filelist.txt'
+mdc dvhcom -a '-vhdl93 -lib twentynm_hssi -F ../common/twentynm_hssi_filelist.txt'
 mdc dvhcom -a '-vhdl93 -F ../common/work_vhdl93_filelist.txt'
-mdc dvlcom -a '-F ../common/twentynm_ver_filelist.txt -lib twentynm_ver'
-mdc dvlcom -a '-F ../common/twentynm_hip_ver_filelist.txt -lib twentynm_hip_ver'
-mdc dvlcom -a '-F ../common/twentynm_hssi_ver_filelist.txt -lib twentynm_hssi_ver'
+mdc dvlcom -a '-lib twentynm_ver -F ../common/twentynm_ver_filelist.txt'
+mdc dvlcom -a '-lib twentynm_ver -F ../common/twentynm_ver_filelist.txt'
+mdc dvlcom -a '-lib twentynm_hssi_ver -F ../common/twentynm_hssi_ver_filelist.txt'
 mdc dvlcom -a '-F ../common/work_verilog_filelist.txt'
 
 # Compile design libraries
